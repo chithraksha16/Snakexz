@@ -1,3 +1,5 @@
-const home=()=>{
+const home=()=>
+<>
 <div> Home page</div>
+</>
 }
