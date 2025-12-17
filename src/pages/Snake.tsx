@@ -3,7 +3,7 @@
 const Snake = () => {
   return (
     <div>
-      snake main page
+      snake home page
     </div>
   )
 }
