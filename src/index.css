@@ -1,1 +1,16 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@font-face {
+    font-family: Plaster;
+    src: url(../src/assets/fonts/Plaster-Regular.ttf);
+}
+@theme{
+    --font-Plaster:Plaster,"sans-serif";
+}
+@font-face{
+    font-family:RubikWetPaint;
+    src:url(../src/assets/fonts/RubikWetPaint-Regular.ttf)
+}
+@theme{
+    --font-RubikWetPaint:RubikWetPaint, "sans-serif";
+}

@@ -2,8 +2,8 @@
 
 const Snake = () => {
   return (
-    <div>
-      snake
+    <div className=" w-full h-screen py-15">
+      hi
     </div>
   )
 }
