@@ -14,3 +14,17 @@
 @theme{
     --font-RubikWetPaint:RubikWetPaint, "sans-serif";
 }
+@font-face {
+    font-family: Gabarito;
+    src: url(../src/assets/fonts/Gabarito-VariableFont_wght.ttf);
+}
+@theme{
+    --font-Gabarito:Gabarito,"sans-serif";
+}
+@font-face {
+    font-family: LexendExa;
+    src: url(../src/assets/fonts/LexendExa-VariableFont_wght.ttf);
+}
+@theme{
+    --font-LexendExa:LexendExa,"sans-serif";
+}

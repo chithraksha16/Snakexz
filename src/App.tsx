@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Snake from './pages/Snake'
 import About from './pages/About'
+import Home from './Home'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <>
       <NavBar/>
       <Routes>
-        <Route path='/' element={<Snake/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/snake' element={<Snake/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes>
       <Footer/>

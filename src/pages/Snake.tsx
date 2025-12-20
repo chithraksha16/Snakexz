@@ -1,8 +1,8 @@
-import React from 'react'
+
 
 const Snake = () => {
   return (
-    <div>
+    <div className='bg-black h-screen w-full'>
       snake
     </div>
   )

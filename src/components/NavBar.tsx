@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <>
     <div className="w-full fixed bg-[#000000] h-11 flex justify-between">
-      <div className=" w-full flex justify-between sm:px-15 px-10">
+      <div className=" w-full flex justify-between sm:px-30 px-10">
          {/* header logo */}
           <div className="flex gap-2 items-center ">
           <img src="/logo.jpeg" height={23} width={23} />
@@ -36,7 +36,7 @@ const NavBar = () => {
     <div>
     {isOpen &&(
       <div className="flex h-screen bg-black text-white absolute p-5">
-        <ul className="flex flex-col gap-5 font-RubikWetPaint text-sm font-light">
+        <ul className="flex flex-col gap-6 font-RubikWetPaint text-sm font-light py-4">
           <li>Home</li>
           <li>Snakes</li>
           <li>About</li>
