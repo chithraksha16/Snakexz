@@ -28,3 +28,10 @@
 @theme{
     --font-LexendExa:LexendExa,"sans-serif";
 }
+@font-face {
+    font-family: DmSans;
+    src: url(../src/assets/fonts/DMSans-ExtraLight.ttf);
+}
+@theme{
+    --font-DmSans:DmSans,"sans-serif";
+}
