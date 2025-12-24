@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 const Home = () => {
   return (
     <>
-    <section className='bg-[url(\snakeHero.jpg)] bg-cover h-90 sm:h-[40vw] sm:px-30 px-5'>
+    <section className='bg-[url(\snakeHero.jpg)] bg-cover h-90 sm:h-[40vw]  sm:px-30 px-5'>
     <motion.div
     initial={{x:-30,opacity:0}}
     animate={{x:0,opacity:1}}
@@ -42,15 +42,25 @@ const Home = () => {
     </section>
 
     <section className="w-full bg-black h-screen">
-    <div className="bg-[url(\snake-blended.png)] bg-no-repeat h-full" >
+    <motion.div
+    initial={{y:-50,opacity:0}}
+    whileInView={{y:0,opacity:1}}
+    viewport={{once:true}}
+    transition={{duration:2,delay:1,ease:"easeIn"}}
+    className="bg-[url(\snake-blended.png)] bg-no-repeat h-full " >
     <div className=" w-full flex flex-col justify-center py-5">
       <h1 className="text-center text-2xl font-LexendExa text-[#92d9fd]">Snake Conservation and Ecological Awareness</h1>
       <p className=" w-full text-center sm:text-sm text-xs text-[#ffffff]  ">Educational snake rescue and conservation videos dedicated to wildlife protection, ecological balance, and responsible human–snake coexistence.</p>
     </div>
       <div>
-        
+      <div>
+        <a href=""><img src="" /></a>
+        <a href=""><img src="" /></a>
+        <a href=""><img src="" /></a>
+        <a href=""><img src="" /></a>
       </div>
-    </div>
+      </div>
+    </motion.div>
     </section>
     </>
   )
