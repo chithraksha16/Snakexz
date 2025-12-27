@@ -3,7 +3,12 @@ import {motion} from 'framer-motion'
 const Home = () => {
   return (
     <>
-    <section className='bg-[url(\snakeHero.jpg)] bg-cover h-90 sm:h-[40vw]  sm:px-30 px-5'>
+    <section className='bg-[url(\snakeHero.jpg)] bg-cover bg-center  min-h-[60vh]
+          md:min-h-[70vh]
+          lg:min-h-[80vh]
+          px-5
+          sm:px-10
+          md:px-16'>
     <motion.div
     initial={{x:-30,opacity:0}}
     animate={{x:0,opacity:1}}
@@ -52,12 +57,20 @@ const Home = () => {
       <h1 className="text-center text-2xl font-LexendExa text-[#92d9fd]">Snake Conservation and Ecological Awareness</h1>
       <p className=" w-full text-center sm:text-sm text-xs text-[#ffffff]  ">Educational snake rescue and conservation videos dedicated to wildlife protection, ecological balance, and responsible human–snake coexistence.</p>
     </div>
+      <div className="">
       <div>
-      <div>
+        <div>
         <a href=""><img src="" /></a>
+        </div>
+        <div>
         <a href=""><img src="" /></a>
+        </div>
+        <div>
         <a href=""><img src="" /></a>
+        </div>
+        <div>
         <a href=""><img src="" /></a>
+        </div>
       </div>
       </div>
     </motion.div>
