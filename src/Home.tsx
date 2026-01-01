@@ -58,18 +58,18 @@ const Home = () => {
       <p className=" w-full text-center sm:text-sm text-xs text-[#ffffff]  ">Educational snake rescue and conservation videos dedicated to wildlife protection, ecological balance, and responsible human–snake coexistence.</p>
     </div>
       <div className="">
-      <div>
+      <div className="flex gap-5 sm:justify-center sm:gap-10 sm:py-20 sm:pl-30">
         <div>
-        <a href=""><img src="" /></a>
+        <a href=""><img className="sm:w-50 w-30 sm:h-60 h-40 rounded-sm" src="snake3.jpg" /></a>
         </div>
         <div>
-        <a href=""><img src="" /></a>
+        <a href=""><img className="sm:w-50 w-30 sm:h-60 h-40 rounded-sm" src="snake3.jpg" /></a>
         </div>
         <div>
-        <a href=""><img src="" /></a>
+        <a href=""><img className="sm:w-50 w-30 sm:h-60 h-40 rounded-sm" src="snake3.jpg" /></a>
         </div>
         <div>
-        <a href=""><img src="" /></a>
+        <a href=""><img className="sm:w-50 w-30 sm:h-60 h-40 rounded-sm" src="snake3.jpg" /></a>
         </div>
       </div>
       </div>
