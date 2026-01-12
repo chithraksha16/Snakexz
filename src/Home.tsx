@@ -60,16 +60,16 @@ const Home = () => {
       <div className="w-full">
       <div className="flex gap-5 sm:justify-center sm:gap-10 sm:py-20 sm:pl-30">
         <div>
-        <a href=""><img className="sm:w-50 w-30 sm:h-60 h-40 rounded-sm" src="snake3.jpg" /></a>
+        <a href=""><img className="sm:w-50 w-30 sm:h-60 h-40 rounded-sm" src="snake1.jpg" /></a>
+        </div>
+        <div>
+        <a href=""><img className="sm:w-50 w-30 sm:h-60 h-40 rounded-sm" src="snake2.jpg" /></a>
         </div>
         <div>
         <a href=""><img className="sm:w-50 w-30 sm:h-60 h-40 rounded-sm" src="snake3.jpg" /></a>
         </div>
         <div>
-        <a href=""><img className="sm:w-50 w-30 sm:h-60 h-40 rounded-sm" src="snake3.jpg" /></a>
-        </div>
-        <div>
-        <a href=""><img className="sm:w-50 w-30 sm:h-60 h-40 rounded-sm" src="snake3.jpg" /></a>
+        <a href=""><img className="sm:w-50 w-30 sm:h-60 h-40 rounded-sm" src="snake1.jpg" /></a>
         </div>
       </div>
       </div>
